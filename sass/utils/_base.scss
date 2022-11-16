@@ -1,0 +1,42 @@
+body {
+    color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+section {
+    padding: 94px 0;
+  }
+  
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
