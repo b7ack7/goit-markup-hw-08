@@ -1,21 +1,36 @@
 header {
-    padding: 25px 0;
+    padding: 16px 0;
     background-color: #fff;
+   
+    @media screen and (min-width:768px) {
+      padding: 21px 0;
+    }
+    @media screen and (min-width:1200px) {
+      padding: 25px 0;
+    }
 
   .header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @media screen and (min-width:768px){
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
 }
 
   .header-nav {
+    @media screen and (max-width:767px) {
+      justify-content: space-between;
+    }
     display: flex;
     flex-grow: 1;
     align-items: center;
   
   }
   .header-nav__menu {
+    @media screen and(max-width:767px) {
+      display: none;
+    }
     display: flex;
     gap: 50px;
     margin-left: 93px;
@@ -50,7 +65,11 @@ header {
     height: 4px;
   }
   }
+
   .header-contact {
+    @media screen and (max-width:767px) {
+      display: none;
+    }
     display: flex;
     gap: 50px;
     font-weight: 500;
