@@ -12,10 +12,12 @@ h4,
 h5,
 h6,
 p,
+a,
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  text-decoration: none;
 }
 
 *,
@@ -31,13 +33,14 @@ img {
 section {
     padding: 60px 0;
     @media screen and (min-width:1200px) {
-      padding: 94px;
+      padding: 94px 0;
   }
 }
   
 .container {
    padding: 0 15px;
     margin: 0 auto;
+    min-width: 320px;
     @media screen and (min-width:480px) {
       width: 480px;
     }
