@@ -1,11 +1,11 @@
-.our-work-section{
-  @media screen and (max-width:1199px) {
+.our-work-section {
+  @media screen and (max-width: 1199px) {
     display: none;
   }
 }
 .our-work-section__container {
-    text-align: center;
-  
+  text-align: center;
+
   .our-work-section__title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -14,7 +14,7 @@
     letter-spacing: 0.03em;
     color: var(--color-primary);
   }
-  
+
   .our-work {
     display: flex;
     gap: 30px;
@@ -22,7 +22,7 @@
     justify-content: center;
     background-color: #fff;
   }
-  
+
   .our-work__img {
     position: relative;
   }
