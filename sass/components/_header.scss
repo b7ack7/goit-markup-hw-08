@@ -77,6 +77,8 @@ header {
       display: none;
     }
     @media screen and(max-width:1199px) {
+      font-size: 12px;
+      line-height: 1.16;
       &__item:not(:last-child){
         margin-bottom: 10px;
       }
